@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+
+int main(void) {
+  int e;
+  scanf("%d", &e);
+  if(e%2==0){
+    printf("Entered Number is Even");    
+  } else{
+    printf("Entered Numbed is Odd");
+  }
+  return 0;
+}
+// (Variable = expression)? expression2:expression3
+/////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+void main() {
+  int e;
+  scanf("%d", &e);
+  (e%2==0)?printf("Entered Number is Even"):printf("Entered Numbed is Odd");
+}
+/////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+void main() {
+int a=5;
+  printf("%d\n",a++);
+}
+/////////////////////////////////////////////////////////////////////
