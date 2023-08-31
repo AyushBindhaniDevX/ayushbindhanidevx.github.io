@@ -23,6 +23,28 @@ void main() {
 #include <stdio.h>
 void main() {
 int a=5;
-  printf("%d\n",a++);
+  printf("%d\n",a++);  // Post Increament Example
 }
 /////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+void main() {
+  int a=5,b=3;
+  a+=b;  // Same as a=a+b
+  printf("%d\n",a);
+}
+/////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+void main() {
+  int a=5,b=3;
+  a-=b;// Same as a=a-b
+  printf("%d\n",a);
+}
+/////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+void main() {
+  int a=5,b=3;
+  a*=b;// Same as a=a*b
+  printf("%d\n",a);
+}
+/////////////////////////////////////////////////////////////////////
+
